@@ -1,0 +1,38 @@
+{
+  "name": "ralphschindler/nova-map-tools",
+  "description": "",
+  "type": "library",
+  "license": "MIT",
+  "keywords": [],
+  "authors": [
+    {
+      "name": "Ralph Schindler",
+      "email": "ralph@ralphschindler.com"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "laravel/nova": "^4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "RalphSchindler\\NovaMapTools\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ZiffMedia\\NovaSelectPlus\\FieldServiceProvider"
+      ]
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.packagist.com/ziffdavis/"
+    },
+    {
+      "packagist.org": false
+    }
+  ]
+}
